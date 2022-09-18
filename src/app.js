@@ -1,9 +1,6 @@
 const feedDisplay = document.querySelector('#feed')
-    // app.use('/css', express.static(path.join(_dirname, 'node_modules/bootstrap/dist/css')))
-    // app.use('/js', express.static(path.join(_dirname, 'node_modules/bootstrap/dist/js')))
 
-
-fetch('http://localhost:8383/results')
+fetch('http://localhost:3030/results')
     .then(response => response.json())
     .then(data => {
         data.forEach(article => {
