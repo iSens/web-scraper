@@ -1,0 +1,18 @@
+{
+    "name": "scraper",
+    "version": "1.0.0",
+    "description": "web scraper",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "bootstrap": "^5.2.1",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "express": "^4.18.1"
+    }
+}
